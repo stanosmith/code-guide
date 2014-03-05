@@ -1,6 +1,12 @@
-name:          Code Guide by @mdo
+## These are overriden by GitHub
+#safe:         true
+#lsi: false
+#pygments: true
+#source: your top-level directory
+
+name:          Code Guide by @wirestone_ux
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://mdo.github.com/code-guide
+url:           http://stanosmith.github.com/code-guide
 
 markdown:      rdiscount
 permalink:     pretty
