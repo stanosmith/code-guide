@@ -11,3 +11,4 @@ url:           http://stanosmith.github.com/code-guide
 markdown:      rdiscount
 permalink:     pretty
 pygments:      true
+exclude: [node_modules, Gruntfile.js, package.json]

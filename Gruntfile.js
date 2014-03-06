@@ -1,3 +1,5 @@
+// Thanks to kctang for this setup:
+// http://kctang.github.io/jekyll/livereload/2014/01/25/github-pages-with-jekyll-and-livereload.html/
 module.exports = function (grunt)
 {
   grunt.initConfig({
@@ -8,8 +10,10 @@ module.exports = function (grunt)
     },
     connect: {
       options: {
-        port: 9000,
-        livereload: 35729
+        port: 9090,
+        // Change to your IP if on proxy
+        hostname: 'localhost',
+        livereload: 45729
       },
       livereload: {
         options: {
@@ -21,11 +25,11 @@ module.exports = function (grunt)
     watch: {
       livereload: {
         files: [
-          '_config.yml',
-          'index.html',
+          '_includes/**',
           '_layouts/**',
           '_posts/**',
-          '_includes/**'
+          '_config.yml',
+          'index.html'
         ],
         tasks: ['shell:jekyllBuild'],
         options: {
