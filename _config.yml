@@ -1,14 +1,14 @@
 ## These are overriden by GitHub
-#safe:         true
-#lsi: false
-#pygments: true
-#source: your top-level directory
+#safe:          true
+#lsi:           false
+#pygments:      true
+#source:        your top-level directory
 
-name:          Code Guide by @wirestone_ux
+name:          Coding Standards & Style Guide
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
 url:           http://stanosmith.github.com/code-guide
 
 markdown:      rdiscount
 permalink:     pretty
 pygments:      true
-exclude: [node_modules, Gruntfile.js, package.json]
+exclude:      [node_modules, Gruntfile.js, package.json]
